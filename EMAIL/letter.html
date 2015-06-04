@@ -1,0 +1,66 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+*{margin:0;padding:0;}
+.container{padding:35px 0;}
+.table_wrap{width:600px;font-size:14px;}
+p {font-size:14px;line-height:28px;color:#313131;text-indent:2em;}
+#notWebmail .qmTableArea{height:auto !important;overflow:visible !important;}
+@media only screen and (max-width:600px){#notWebmail .table_wrap{width:100%;min-width:240px;}}
+@media only screen and (max-width:550px){.bg{background:none;}.postcard_img{width:100%;}}
+a.button_send:hover{background-color:#2f90e1 !important;}
+</style>
+<div class="container" id="notWebmail" style="padding:15px 0 35px;">
+	<center>
+		<div class="table_wrap" style="margin:0 auto;overflow:hidden;background:#fff url(http://i.mail.qq.com/zh_CN/htmledition/images/letter/20141216_christmas_pushmail/bg.jpg) 0 0 no-repeat;background-size:100% 100%;">
+			<table cellpadding="0" align="center" style="margin:0;padding:0;background:#ffftext-align:left;font-size:14px;font-family:'lucida Grande',Verdana;line-height:1.5;border-collapse:collapse;" class="table_wrap">
+			<tr><td>
+			<div style="padding:5% 4%;">
+          <img src="http://i.mail.qq.com/zh_CN/htmledition/images/letter/20150521_children_push/children.jpg" style="display:block;width:100%;margin-bottom:3.5%;" alt="假如你有时光机，你想回到你的童年吗？" />
+					<h2 style="margin:0 2% 5px;font-size:14px;" >Hi,Matrix:</h2>
+					<p style="margin:0 2%;text-indent:2em;">假如你有时光机，你想回到童年吗？QQ邮箱新增儿童节贺卡，带上你和你的小伙伴，一起坐上时光机，回到那个你心之所向的美好年代。</p>
+					<a class="button_send" href="http://mail.qq.com/cgi-bin/sendcard?acctype=children&step=showinfo&t=postcard_for_edm_2014_send&sendcardkey=Key14328859971581080460999339365787" style="display:block;margin:25px auto 30px;background-color:#4f99ee;border-radius:4px;color:#fff;height:35px;font-size:15px;line-height:35px;text-align:center;text-decoration: none;cursor:pointer;max-width:140px;">发送贺卡</a>
+          <div style="text-align:right"><img style="width:17%;min-width:60px;margin-bottom:1%;" src="http://i.mail.qq.com/zh_CN/htmledition/images/letter/20141216_christmas_pushmail/bottom_logo.png" alt="QQ邮箱" /></div>
+				</div>
+			</td></tr>
+			</table>
+		</div>
+	</center>
+</div>
+
+<div class="bg" id="webmail" style="display:none;">
+	<div class="table_wrap" style="height:537px;margin:10px auto;overflow:hidden;background:#fff url(http://i.mail.qq.com/zh_CN/htmledition/images/letter/20141216_christmas_pushmail/bg.jpg) 0 0 no-repeat;">
+	<table cellpadding="0" align="center" style="margin:0 auto;overflow:hidden;text-align:left;font-size:14px;font-family:'lucida Grande',Verdana;line-height:1.5;border-collapse:collapse;" class="table_wrap">
+	<tr><td>
+			<div style="padding:25px 20px;">
+      <img src="http://i.mail.qq.com/zh_CN/htmledition/images/letter/20150521_children_push/children.jpg" style="display:block;width:100%;margin-bottom:30px;" alt="假如你有时光机，你想回到你的童年吗？" />
+			<h2 style="font-weight:bold;font-size:14px;margin:0 10px 5px;" id="qqmlNickName"> Hi, Matrix:</h2>
+			<p style="margin:0 10px;text-indent:2em;">假如你有时光机，你想回到童年吗？QQ邮箱新增儿童节贺卡，带上你和你的小伙伴，一起坐上时光机，回到那个你心之所向的美好年代。</p>
+      <a onclick="getTop().goUrlMainFrm('/cgi-bin/cardlist?t=card&today_tips=200&sid=$SID$&loc=pushmail&ListType=Cards&Cate1Idx=listall&select=jr&auto=preview_99933&pagenum=0');" class="btn_blue" style="display:block;margin:20px auto 30px;background-color:#4f99ee;border-radius:4px;color:#fff;height:35px;font-size:15px;line-height:35px;text-align:center;text-decoration: none;cursor:pointer;max-width:140px;" href="javascript:;">发送贺卡</a>
+      <div style="text-align:right"><img src="http://i.mail.qq.com/zh_CN/htmledition/images/letter/20141216_christmas_pushmail/bottom_logo.png" alt="QQ邮箱" /></div>
+			<!--上报总量-->
+			<img class="countKv" src="http://rl.mail.qq.com/cgi-bin/getinvestigate?kvclick=children|readmail|v3|all" style="position:absolute; left:-10000px; top:-10000px;" />
+			<script type="text/javascript">
+				try{
+					if(window.location && (/^(m\d+\.|set\d\.)?mail.qq.com$/.test(window.location.hostname) || "webdev.mail.qq.com"==window.location.hostname) ){
+						
+						//webmail
+						(new Image()).src = "//rl.mail.qq.com/cgi-bin/getinvestigate?kvclick=children|readmail|v1|web";
+						
+						document.getElementById("notWebmail").style.display="none";
+						document.getElementById("webmail").style.display="";
+						
+						var _sUserAlias = getTop().getUserInfoText("alias");
+						if(_sUserAlias && _sUserAlias != "")
+						{
+							document.getElementById( "qqmlNickName" ).innerHTML = "Hi，" + _sUserAlias + "：";
+						}
+					}
+				}
+				catch(e){}
+
+			</script>
+		</div>
+	</td></tr>
+	</table>
+	</div>
+</div>
